@@ -1,104 +1,60 @@
 import React from 'react'
 import { FaStar } from 'react-icons/fa'
+import HEAVENBakery from '../assets/HEAVENBAKERY.jpg'
+import EAKIALogo from '../assets/EAKIALogo.jpg'
+import PintHouseLogo from '../assets/PINTHOUSELogo.jpg'
+import DORILogo from '../assets/DORILogo.jpg'
 
 const clientData = [
     {
         id: 1,
-        name: 'Fareed Muhammed',
-        founder: 'Forexcitypro',
+        name: 'Veena Rathore',
+        founder: 'HEAVENBAKERY',
         title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
+        image: HEAVENBakery,
         description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$10,000 to $49,999',
-        // Duration: 'Jan.2025-Apr.2025',
+            "Pixel Genix has developed a modern digital presence for Heaven Bakery, a premium bakery brand. They’ve built a responsive website and integrated features like an interactive menu, online ordering system, customer reviews, and location-based delivery tracking.",
+
     },
     {
         id: 2,
-        name: 'Jeans Quevedo',
-        founder: 'Runner Consulting',
+        name: 'Manvendra Singh Shekhawat',
+        founder: 'EAKIA',
         title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
+        image: EAKIALogo,
         description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$50,000 to $199,999',
-        // Duration: 'May.2025-on-going',
+            "Pixel Genix has developed a professional digital platform for EAKIA, a corporate service provider. The solution includes a dynamic website, service listing modules, inquiry management tools, and seamless integration with communication channels to improve client engagement and streamline operations.",
+
     },
 
     {
         id: 3,
-        name: 'Catherine Mueni',
-        founder: 'mVOCHA',
+        name: 'Aashish Sharma',
+        founder: 'PINT HOUSE',
         title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
+        image: PintHouseLogo,
         description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$10,000 to $49,999',
-        // Duration: 'Jan.2025-Apr.2025',
+            "Welcome to PINT HOUSE, your ultimate destination for great taste, good vibes, and unforgettable moments. Whether you're here for a chilled pint, handcrafted cocktails, delicious bites, or just to unwind with friends—PINT HOUSE delivers the perfect mix of flavor and atmosphere.Our space is designed for comfort, connection, and celebration. From casual catch-ups to weekend hangouts, we serve up more than just drinks—we serve experiences.",
+
     },
     {
         id: 4,
-        name: 'Addam Vagley',
-        founder: 'Founder,Runner,Consulting',
+        name: 'Aditi and Sankriti Choudhary',
+        founder: 'DORI',
         title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
+        image: DORILogo,
         description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$50,000 to $199,999',
-        // Duration: 'May.2025-on-going',
-    },
-    {
-        id: 5,
-        name: 'Ms. Joyce Mesick',
-        founder: 'Finding Trusted Care',
-        title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
-        description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$10,000 to $49,999',
-        // Duration: 'Jan.2025-Apr.2025',
-    },
-    {
-        id: 6,
-        name: 'Jeans Quevedo',
-        founder: 'Fintech Company',
-        title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
-        description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$50,000 to $199,999',
-        // Duration: 'May.2025-on-going',
-    },
+            "DORI is more than just a brand—it's a story woven with elegance, tradition, and modern design. Inspired by the beauty of details and the strength of simplicity, DORI brings you handcrafted creations that speak of timeless charm and contemporary flair.Every piece is made with precision, passion, and purpose—whether it’s fashion, jewelry, or home decor. At DORI, we believe that the smallest thread can tie together the biggest expressions of identity and art.",
 
-    {
-        id: 7,
-        name: 'Manon Schipper',
-        founder: 'Barbacoa.PRO',
-        title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
-        description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$10,000 to $49,999',
-        // Duration: 'Jan.2025-Apr.2025',
     },
-    {
-        id: 8,
-        name: 'Addam Vagley',
-        founder: 'Founder,Runner,Consulting',
-        title: 'Project Summary:Runner Consulting',
-        image: 'https://cdn-gnapb.nitrocdn.com/rVKsFrUUJpBqwSXDQLTtMASMDgzFisXl/assets/images/optimized/rev-dcb3e06/d274cmdd0goq94.cloudfront.net/wp-content/themes/octal/images/home-new/dummy-user.png',
-        description:
-            'Octal IT Solution has built a stock and forex trading app for a stock and forex trading firm. They’ve added features like live market data, trading capabilities, portfolio management, and performance trackers.',
-        // Budget: '$50,000 to $199,999',
-        // Duration: 'May.2025-on-going',
-    },
+    
     // add more as needed...
 ]
 
 const TestimonialsSection = () => {
     return (
         <>
-            <div className='py-5 bg-gray-100'>
+            <div className='py-5 bg-gray-300'>
 
 
                 <div className='flex justify-center items-center '>
@@ -115,7 +71,7 @@ const TestimonialsSection = () => {
                             ({ id, name, founder, title, image, description, }) => (
                                 <div
                                     key={id}
-                                    className="bg-white p-6 pb-[7rem] rounded-xl shadow-lg"
+                                    className="bg-white p-6 pb-[5rem] rounded-xl shadow-lg"
                                 >
                                     <div className="flex items-center gap-4 mb-4">
                                         <img
@@ -125,7 +81,7 @@ const TestimonialsSection = () => {
                                         />
                                         <div>
                                             <h3 className="font-semibold text-[20px]">{name}</h3>
-                                            <p className="text-sm text-gray-500">{founder}</p>
+                                            <p className="text-sm text-gray-500 font-semibold text-[20px]">{founder}</p>
                                             <div className="flex text-yellow-400 mt-1">
                                                 {[...Array(5)].map((_, i) => (
                                                     <FaStar key={i} />

@@ -21,7 +21,7 @@ const Meet = () => {
 
 
                 <div className='py-4.5 text-center w-full max-w-full' >
-                    <h1 className="font-  text-2xl leading-14 text-black inline-block relative after:content- after:block after:h-[4px] after:w-full after:mt-1 after:bg-gradient-to-r after:from-indigo-300 after:via-pink-300 after:to-purple-300 ">Pixelgenix IT Solution "Crafting Tomorrow’s  Digital Success"</h1>
+                    <h1 className="font-  text-2xl leading-14 text-black inline-block relative after:content- after:block after:h-[4px] after:w-full after:mt-1 after:bg-gradient-to-r after:from-indigo-300 after:via-pink-300 after:to-purple-300 font-semibold ">Pixelgenix IT Solution "Crafting Tomorrow’s  Digital Success"</h1>
                 </div>
                 <div className="container mx-auto w-full max-w-[1200px] px-6 flex flex-col gap-4 sm:flex-row sm:gap-6 ">
 

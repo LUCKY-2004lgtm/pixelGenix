@@ -1,4 +1,11 @@
 import React from "react";
+import WebDevelopment from '../assets/WebDevelopment.jpg'
+import SoftwareDeveloper from '../assets/SoftwareDevelopment.jpg'
+import DesignSolutions from '../assets/DesignSolutions.jpg'
+import QASolutions from '../assets/QASolutions.jpg'
+import RemoteTeam from '../assets/RemoteTeam.jpg'
+import ManagedITServices from '../assets/ManagedITServices.jpg'
+import EcommerceSolutions from '../assets/EcommerceSolutions.jpg'
 import {
   Briefcase, Code, Smartphone, Globe,
   Monitor, ShieldCheck, Users, Cpu
@@ -8,21 +15,21 @@ import { motion } from "framer-motion";
 
 
 const services = [
-  { icon: <Code size={36} />, title: "Software Development", bgImage: 'https://images.unsplash.com/photo-1637073849667-91120a924221?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { icon: <Code size={36} />, title: "Software Development", bgImage: SoftwareDeveloper },
 
   { icon: <Smartphone size={36} />, title: "App Development", bgImage: 'https://images.unsplash.com/photo-1633250391894-397930e3f5f2?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
 
-  { icon: <Globe size={36} />, title: "Web Development", bgImage: 'https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { icon: <Globe size={36} />, title: "Web Development", bgImage: WebDevelopment },
 
-  { icon: <Monitor size={36} />, title: "Design Solutions", bgImage: 'https://plus.unsplash.com/premium_photo-1683133723694-f5eff1e4c047?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { icon: <Monitor size={36} />, title: "Design Solutions", bgImage: DesignSolutions },
 
-  { icon: <ShieldCheck size={36} />, title: "Ecommerce Solutions", bgImage: 'https://media.istockphoto.com/id/1646500908/photo/closeup-group-of-asian-people-software-developers-using-computer-to-write-code-sitting-at.jpg?s=2048x2048&w=is&k=20&c=NalbwrCClu1UVjYLsFw7z3jWn8tUcry8VtAg2Zr_wB4=' },
+  { icon: <ShieldCheck size={36} />, title: "Ecommerce Solutions", bgImage: EcommerceSolutions },
 
-  { icon: <Cpu size={36} />, title: "QA Solutions", bgImage: 'https://media.istockphoto.com/id/1168430736/photo/3d-word-q-a-on-chalkboard-background-3d-rendering.jpg?s=2048x2048&w=is&k=20&c=ul-_DvhZNpwHhmPu4w1IQ3pMNZ7z55VGFngbzRVAWD0=' },
+  { icon: <Cpu size={36} />, title: "QA Solutions", bgImage: QASolutions },
 
-  { icon: <Briefcase size={36} />, title: "Managed IT Services", bgImage: 'https://images.unsplash.com/photo-1621036579842-9080c7119f67?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' },
+  { icon: <Briefcase size={36} />, title: "Managed IT Services", bgImage: ManagedITServices },
 
-  { icon: <Users size={36} />, title: "Remote Team", bgImage: 'https://media.istockphoto.com/id/1363105039/photo/businesspeople-do-video-conference-call-with-big-wall-tv-in-office-meeting-room-diverse-team.jpg?s=1024x1024&w=is&k=20&c=2wWS_wvoJMeNmWOseLa2c-WIO0rpi-Y9RSrazNBjeZs=' },
+  { icon: <Users size={36} />, title: "Remote Team", bgImage: RemoteTeam },
 ];
 
 const ServicesSection = () => {
@@ -36,6 +43,7 @@ const ServicesSection = () => {
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
         >
+
           <h2 className="text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">
             <span className="text-indigo-600">Services</span> We Offer
           </h2>
@@ -59,7 +67,7 @@ const ServicesSection = () => {
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
-                
+
               }}
 
             >

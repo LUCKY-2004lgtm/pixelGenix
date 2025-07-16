@@ -5,7 +5,7 @@ import VeenaMam from '../assets/VeenaMam.jpg'
 import RahulSir from '../assets/RahulSir.jpg'
 import Shive from '../assets/Shive.jpg'
 import Ajay from '../assets/Ajay.jpg'
-import HeavenSir from'../assets/HEAvenSir.jpg'
+import HeavenSir from '../assets/HEAvenSir.jpg'
 import vanshika from '../assets/Vanshika.jpg'
 import lucky from '../assets/lucky.jpg'
 
@@ -54,7 +54,7 @@ const projects = [
     Roll: "Frontend Developer",
     image: vanshika,
   },
-   {
+  {
     name: " Mr Lucky Singh",
     Roll: "Web Developer",
     image: lucky,
@@ -96,11 +96,11 @@ const OurMembers = () => {
           }}
         >
           {projects.map(({ title, image, name, Exprience, Roll }, index) => (
-            <SwiperSlide key={index} className="h-auto">
+            <SwiperSlide key={index} className="h-auto w-25">
               <div className=" flex flex-col items-center p-6 ">
                 {/* Image Section */}
                 <div
-                  className=" group flex justify-center items-center py-4"
+                  className=" group flex justify-center items-center py-2"
                   onMouseEnter={() => swiperRef.current?.autoplay?.stop()}
                   onMouseLeave={() => swiperRef.current?.autoplay?.start()}
                 >

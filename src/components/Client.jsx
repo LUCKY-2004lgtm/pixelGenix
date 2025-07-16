@@ -30,7 +30,7 @@ let clientData = [
 
 
         image: HEAVENBakery,
-        description: 'We assisted Runner Consulting in transitioning their internal operations to a unified digital system. The platform allowed their consultants to collaborate, share reports, and monitor project milestones with greater clarity and control. ',
+        description: "At Heaven Bakery, we believe in the magic of fresh ingredients, timeless recipes, and a touch of love in every creation. From soft, buttery pastries to rich, indulgent cakes, our bakery is your go-to destination for delightful treats. Whether you're celebrating a special occasion or simply craving something sweet, our handcrafted baked goods are made to satisfy every taste and make every moment special.",
         image2: Cake
     },
 
@@ -41,7 +41,7 @@ let clientData = [
         title: 'PINT HOUSE',
 
         image: PintHouseLogo,
-        description: 'We assisted Runner Consulting in transitioning their internal operations to a unified digital system. The platform allowed their consultants to collaborate, share reports, and monitor project milestones with greater clarity and control.',
+        description: "Pint House is more than just a place to grab a drink – it's where great conversations, good vibes, and unforgettable moments come together. With a carefully curated selection of craft beers, classic cocktails, and delicious food, we create the perfect setting for every occasion. Whether you're catching up with friends, celebrating a milestone, or just unwinding after a long day, Pint House offers the perfect blend of comfort and class.",
         image2: PintHouse
 
 
@@ -51,22 +51,21 @@ let clientData = [
     {
         id: 3,
 
-        founder: 'Founder,Runner,Consulting',
+        founder: 'Aditi and Sankriti Choudhary',
         title: 'DORI',
-
         image: DORILogo,
-        description: 'Our work with Runner Consulting centered on building an intuitive client management system. The solution integrated scheduling, notifications, and secure document sharing to streamline how their teams handle day-to-day client engagement.',
+        description: "DORI is your trusted partner in digital innovation. We specialize in crafting seamless user experiences, cutting-edge web and mobile solutions, and impactful branding strategies that bring your vision to life. Our team blends creativity with technology to deliver smart, scalable, and stunning digital products tailored to your goals.From startups to enterprises, DORI empowers businesses to grow, connect, and lead in the digital world.",
         image2: DORI,
     },
 
     {
         id: 4,
-        name: 'Addam Vagley',
-        founder: 'Founder,Runner,Consulting',
+        name: '',
+        founder: 'Manvendra Singh Shekhawat',
         title: 'EAKIA',
 
         image: EAKIALogo,
-        description: 'We helped Runner Consulting enhance their data-driven decision-making through a custom analytics dashboard. The system provides real-time insights and performance metrics for leadership to evaluate and adjust strategies effectively.',
+        description: "At EAKIA, we are committed to turning ideas into impactful realities. Whether it’s technology, design, or strategy, we offer end-to-end solutions that drive success and sustainable growth. Our team blends expertise with innovation to deliver customized services that meet your unique business needs.Driven by creativity and powered by technology, EAKIA is your partner in building a smarter, stronger future.",
         image2: EAKIA
 
     }
@@ -80,7 +79,7 @@ const Client = () => {
 
     return (
         <>
-            <div className='flex items-center justify-center font-bold text-3xl'>
+            <div className='flex items-center justify-center font-bold text-3xl pt-4'>
                 <h1>Testimonials- Hear From Our Clients </h1>
             </div>
 

@@ -167,7 +167,7 @@ const Portfolio = () => {
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">
               Crafting Digital Success Stories with{" "}
-              <span className="text-indigo-400">Fusion Coder</span>
+              <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  text-transparent bg-clip-text">Pixel Genix</span>
             </h2>
             <p className="text-md md:text-lg">
               Explore our diverse portfolio of 45+ projects where we empowered

@@ -48,12 +48,12 @@ function App() {
               <Route path="/testimonialsSection" element={<TestimonialsSection />} />
               <Route path="/admin-dashboard" element={<AdminDashboard />} />
               <Route path="/admin/services" element={<AdminServices />} />
-              <Route path="/our-story" element={<OurStory/>} />
-              <Route path="/who-we-serve" element={<Whowe/>} />
-              <Route path="/how-we-operate" element={<Howwe/>} />
-              <Route path="/meet-the-team" element={<Meet/>} />
-              <Route path="/business-modal" element={<Business/>} />
-              <Route path="/recognition" element={<Recog/>} />
+              <Route path="/our-story" element={<OurStory />} />
+              <Route path="/who-we-serve" element={<Whowe />} />
+              <Route path="/how-we-operate" element={<Howwe />} />
+              <Route path="/meet-the-team" element={<Meet />} />
+              <Route path="/business-modal" element={<Business />} />
+              <Route path="/recognition" element={<Recog />} />
 
             </Routes>
           </main>
