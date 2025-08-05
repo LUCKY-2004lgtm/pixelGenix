@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
+import logo from '../assets/logo.jpg'
 
 const PopupModal = () => {
   const [showModal, setShowModal] = useState(false);
@@ -74,7 +75,7 @@ const PopupModal = () => {
       console.error("Error submitting form:", error);
       setFormError(
         "Server error: " + error.message ||
-          "Failed to submit the form. Please try again later."
+        "Failed to submit the form. Please try again later."
       );
       Swal.fire({
         icon: "error",
@@ -92,20 +93,22 @@ const PopupModal = () => {
           <div className="bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-500 p-1 rounded-2xl shadow-2xl w-[95%] max-w-3xl h-[95vh] overflow-auto">
             <div className="bg-white rounded-xl overflow-hidden h-full flex flex-col justify-between">
               <div className="p-8 overflow-auto">
-                <div className="flex justify-between items-center mb-6">
-                  <h2 className="text-3xl font-bold text-indigo-700">
-                    🚀 Welcome to PixelGenix IT Solution
+                <div className="flex justify-between items-center mb-6 ">
+                  <h2 className="text-3xl font-bold text-indigo-700 flex justify-center items-center gap-3 mx-auto">
+                    <img className="w-5 h-5" src={logo} alt="Logo" /> Welcome to PixelGenix IT Solutions
                   </h2>
-                  <button
-                    onClick={() => setShowModal(false)}
-                    className="text-gray-500 hover:text-red-500 text-3xl font-bold"
-                  >
-                    ×
-                  </button>
+                  <div>
+                    <button
+                      onClick={() => setShowModal(false)}
+                      className="text-gray-500 hover:text-red-500 text-3xl font-bold"
+                    >
+                      ×
+                    </button>
+                  </div>
                 </div>
 
                 <p className="text-gray-700 mb-6 text-base">
-                  🚨 Unlock access to our premium IT training, project
+                   Unlock access to our premium IT training, project
                   consulting, and tailored software solutions. Fill the form
                   below and we’ll get back to you shortly!
                 </p>
@@ -161,10 +164,9 @@ const PopupModal = () => {
                   <button
                     type="submit"
                     className={`w-full bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 rounded-md transition
-                      ${
-                        isSubmitting
-                          ? "opacity-50 cursor-not-allowed"
-                          : "hover:bg-indigo-700 hover:shadow-lg"
+                      ${isSubmitting
+                        ? "opacity-50 cursor-not-allowed"
+                        : "hover:bg-indigo-700 hover:shadow-lg"
                       }
                       `}
                   >
@@ -174,7 +176,7 @@ const PopupModal = () => {
               </div>
 
               <div className="bg-gradient-to-r from-pink-500 to-purple-500 text-white text-center py-3 text-sm font-medium rounded-b-xl">
-                🔥 1000+ developers trust PixelGenix IT Solution. Join the
+                  developers trust PixelGenix IT Solutions. Join the
                 revolution today!
               </div>
             </div>

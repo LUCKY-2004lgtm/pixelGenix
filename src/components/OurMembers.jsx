@@ -3,12 +3,12 @@
 import AnkitSir from '../assets/AnkitSir.jpg'
 import VeenaMam from '../assets/VeenaMam.jpg'
 import RahulSir from '../assets/RahulSir.jpg'
-import Shive from '../assets/Shive.jpg'
+
 import Ajay from '../assets/Ajay.jpg'
 import HeavenSir from '../assets/HEAvenSir.jpg'
 import vanshika from '../assets/Vanshika.jpg'
 import lucky from '../assets/lucky.jpg'
-
+import Goransh from '../assets/Goransh.jpg'
 // Swiper components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
@@ -39,11 +39,7 @@ const projects = [
     Roll: 'Full Stack Developer',
     image: AnkitSir,
   },
-  {
-    name: "Miss Shivii Yadav",
-    Roll: "Graphic Designer",
-    image: Shive,
-  },
+
   {
     name: "Mr Havan Mishra",
     Roll: 'Entrepreneur',
@@ -58,7 +54,13 @@ const projects = [
     name: " Mr Lucky Singh",
     Roll: "Web Developer",
     image: lucky,
+  },
+  {
+    name: " Mr Goransh Khandelwal",
+    Roll: "Graphic Designer",
+    image: Goransh,
   }
+
 ];
 
 const OurMembers = () => {

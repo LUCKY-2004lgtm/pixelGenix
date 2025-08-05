@@ -10,6 +10,7 @@ import {
   FaShoppingCart,
 } from "react-icons/fa";
 // import appDevelopmentImage from "../assets/appdevelpoment.jpg";
+import AiDevelopmet from '../assets/AiDevelopment.jpg'
 
 const serviceData = [
   {
@@ -250,7 +251,7 @@ Get a site that’s built to engage, convert, and grow with you.
       "Chatbots, predictive analytics, NLP, and ML-based applications. We develop intelligent AI solutions that automate processes, analyze data, and drive smarter decisions.From chatbots to predictive analytics — we help businesses innovate with artificial intelligence.",
     icon: <FaRobot className="text-indigo-600 text-4xl" />,
     image:
-      "https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI=",
+      AiDevelopmet,
     packages: [
       {
         name: "Starter",

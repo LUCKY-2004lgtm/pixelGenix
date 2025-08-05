@@ -2,14 +2,11 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const technologies = [
-  "Kotlin", "AI / ML", "Swift", "Python", "Blockchain",
-  "React Native", "TensorFlow", "Flutter",
-  "Angular", "Vue.JS", "Ionic", "MERN Stack", "Software Testing", "Cyber Security & Networking",
-  " Cloud Computing", "iOS App Development",
-  "Java", "C / C++ Programming", "Web Design with UI/UX using Figma",
-  " Flutter App Development", 'Cyber Security & Networking',
-  "React Native Development", "Cloud Computing", "AI with Python",
-  "PHP with MySQL",
+  "MERN/MEAN", "PHP with MySQL", "Java", "AI with Python", "iOS App Development", "React Native", "Swift", "Flutter", "Kotlin", "Angular", "Vue.JS", "Ionic", "AI / ML", "Python", "Blockchain",
+  "TensorFlow",
+  "Software Testing",
+  "Cloud Computing",
+  ,
 
 ];
 

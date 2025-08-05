@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import WebDevelopment from '../assets/WebDevelopment.jpg'
 import SoftwareDeveloper from '../assets/SoftwareDevelopment.jpg'
 import DesignSolutions from '../assets/DesignSolutions.jpg'
@@ -6,6 +6,8 @@ import QASolutions from '../assets/QASolutions.jpg'
 import RemoteTeam from '../assets/RemoteTeam.jpg'
 import ManagedITServices from '../assets/ManagedITServices.jpg'
 import EcommerceSolutions from '../assets/EcommerceSolutions.jpg'
+import useLocation from 'react-dom'
+
 import {
   Briefcase, Code, Smartphone, Globe,
   Monitor, ShieldCheck, Users, Cpu
@@ -33,6 +35,9 @@ const services = [
 ];
 
 const ServicesSection = () => {
+  const headleClick = () => {
+    window.scrollTo
+  }
   return (
     <section className="relative bg-[#f9fafc] py-24 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-white via-gray-100 to-gray-200 opacity-50 pointer-events-none" />
@@ -42,6 +47,7 @@ const ServicesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
+
         >
 
           <h2 className="text-5xl font-extrabold text-gray-800 mb-4 tracking-tight">
@@ -60,22 +66,23 @@ const ServicesSection = () => {
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="group h-52 bg-white rounded-2xl p-6 shadow-[0_8px_24px_rgba(0,0,0,0.05)] hover:shadow-xl transition duration-300 hover:scale-105 hover:-translate-y-1 border-t-4 border-indigo-100 hover:border-indigo-500"
+              className="relative group h-52 bg-white rounded-2xl p-6 shadow-[0_8px_24px_rgba(0,0,0,0.05)] hover:shadow-xl transition duration-300 hover:scale-105 hover:-translate-y-1 border-t-4 border-indigo-100 hover:border-indigo-500 before:absolute before:inset-0 before:bg-black before:opacity-40 before:rounded-2xl before:z-0"
               style={{
-
+                position: 'relative',
+                overflow: 'hidden',
                 backgroundImage: `url(${service.bgImage})`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
                 backgroundSize: 'cover',
-
               }}
+              
 
             >
 
               <div className="text-indigo-600 mb-4 group-hover:animate-pulse">
                 {service.icon}
               </div>
-              <h4 className="text-[22px] font-bold text-white">{service.title}</h4>
+              <h4 className=" relative z-10 text-[22px] font-bold text-white">{service.title}</h4>
             </motion.div>
           ))}
         </div>

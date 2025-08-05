@@ -16,8 +16,8 @@ const Footer = () => {
 
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-300 py-10 font-sans">
-      <div classname="flex justify-center items-center sm ">
-        <div className="flex justify-center items-center py-5  ">
+      <div className="flex justify-center items-center sm ">
+        <div className="flex justify-center items-center py-5 mx-auto ">
           <img
             src={image}
             alt="PixelGenix Logo"
@@ -232,7 +232,7 @@ const Footer = () => {
       >
         <div className="flex justify-center space-x-5 text-gray-400 text-xl mb-4">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=61577101538076&sk=about"
             target="_blank"
             rel="noopener noreferrer"
 
@@ -241,7 +241,7 @@ const Footer = () => {
             <FaFacebook className="text-blue-500 text-3xl" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/"
             target="_blank"
             rel="noopener noreferrer"
 
@@ -249,7 +249,7 @@ const Footer = () => {
             <FaTwitter className="text-blue-500 text-3xl" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/pixelgenix-itsolutions-0b0607378"
             target="_blank"
             rel="noopener noreferrer"
 
@@ -257,7 +257,7 @@ const Footer = () => {
             <FaLinkedinIn className="text-blue-500 text-3xl" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/pixelgenixitsolutions/"
             target="_blank"
             rel="noopener noreferrer"
 

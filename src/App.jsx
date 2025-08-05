@@ -25,18 +25,23 @@ import Howwe from "./pages/Howwe";
 import Meet from "./pages/Meet";
 import Recog from "./pages/Recog";
 import Business from "./pages/Business";
+import ScrollToTop from "./components/ScrollToTop";
+
+
 
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop/>
         <div className="flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-grow">
             <Routes>
+
               <Route path="/" element={<Home />} />
-              <Route path="/services" element={<Services />} />
+              <Route path="/services" element={<Services />} /> 
               <Route path="/about" element={<About />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path='/client' element={<Client />} />
